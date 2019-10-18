@@ -1,0 +1,25 @@
+{
+  "name": "nope",
+  "version": "1.0.0",
+  "description": "noddy app",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "noddy"
+  ],
+  "author": "joseph",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
