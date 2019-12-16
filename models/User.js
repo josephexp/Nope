@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
-
+// mongo document has a storage limit of 4MB [collection=>[doc][doc][doc]]
 const userSchema = new Schema({
   googleId: String,
   credits: { type: Number, default: 0 }
